@@ -51,5 +51,7 @@ client.on("messageCreate", message => {
 });
 
 // ===== LOGIN =====
-client.login("MTQyOTg0MTc1MDMxODY0NTQ0OQ.GtqJXA.3xoo0onNw98qPQ82vgh9gFAkLLdb3W6O-SyMfs");
+client.login(process.env.TOKEN);
+
+
 
